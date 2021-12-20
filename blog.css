@@ -10,9 +10,22 @@
     display: middle;
 }
 
-.leftcolumn
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
 
-.rightcolumn
+.rightcolumn {
+    float: right;
+    width: 25%;
+    padding-left: 1em;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .section__authors {
     font-family: Arial;
