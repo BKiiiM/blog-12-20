@@ -5,7 +5,7 @@
 }
 */
 
-.header {
+header {
     padding: 0;
     display: middle;
 }
@@ -16,7 +16,7 @@
 }
 
 .rightcolumn {
-    float: right;
+    float: left;
     width: 25%;
     padding-left: 1em;
 }
