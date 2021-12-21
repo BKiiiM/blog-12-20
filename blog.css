@@ -1,7 +1,6 @@
 
 .welcoming__pic {
-    width: 500px;
-
+    width: 100%;
     
 }
 
@@ -31,11 +30,13 @@ header {
     height: 200px;
 }
 
-.row::after {
+/*
+.row:after {
     content: "";
     display: table;
     clear: both;
 }
+*/
 
 .section__authors {
     font-family: Arial;
