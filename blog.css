@@ -6,7 +6,7 @@
 */
 
 header {
-    padding: 0;
+    padding: 30px;
     display: middle;
 }
 
@@ -18,7 +18,7 @@ header {
 .rightcolumn {
     float: left;
     width: 25%;
-    padding-left: 1em;
+    padding-left: 20px;
 }
 
 .row::after {
